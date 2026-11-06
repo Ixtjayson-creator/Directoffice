@@ -47,3 +47,6 @@ AI/Runtime/Linux/*
 *.sqlite-journal
 *.log
 
+
+implementationplan*.md
+
