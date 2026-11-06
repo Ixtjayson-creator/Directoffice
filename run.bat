@@ -125,3 +125,4 @@ start "DirectOffice - Desktop App" cmd /k "cd /d "%~dp0Desktop\Frontend" && npm 
 echo Both processes launched.
 pause
 goto MENU
+
