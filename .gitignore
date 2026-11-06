@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Rust / Cargo build artifacts
+target/
+Cargo.lock
+
+# Tauri build artifacts
+src-tauri/target/
+Desktop/Backend/target/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI binary / model artifacts (heavy files excluded from git)
+AI/Models/Speech/*.bin
+AI/Models/Language/*.gguf
+AI/Runtime/Windows/*.dll
+AI/Runtime/Windows/*.exe
+AI/Runtime/Linux/*.so
+AI/Runtime/Linux/*
+!AI/Runtime/Linux/.gitkeep
+!AI/Runtime/Windows/.gitkeep
+!AI/Models/Speech/.gitkeep
+!AI/Models/Language/.gitkeep
+
+# Temporary databases and logs
+*.sqlite
+*.sqlite-journal
+*.log
+
